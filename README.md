@@ -8,7 +8,7 @@ The faders, R and M buttons of the nanoKONTROL2 control the transparency and pla
 To use this, install Midimonster library, connect the nanoKONTROL2 to the computer via USB, launch Vimix with default OSC configs (7000 port in, 7001 por out) and then run `midimonster vimix-controllers.cfg`: Vimix should begin reacting to nanoKONTROL2 interactions.
 
 ![Diagram of the Vimix mappings over a picture of a nanoKONTROL2](midimonster-vimix-01.png)
-![Scene settings of the nanoKONTROL2](midimonster-vimix-02.png)
+
 
 ## Files included
 
@@ -18,7 +18,7 @@ To use this, install Midimonster library, connect the nanoKONTROL2 to the comput
 
 ## Requirements
 
-- [Vimix](https://brunoherbelin.github.io/vimix/): live video mixer software. Available for Linux and Mac.
+- [Vimix](https://brunoherbelin.github.io/vimix/) live video mixer software. Available for Linux and Mac.
 - [Midimonster](https://midimonster.net/) library 
 - [Korg nanoKONTROL2](https://www.korg.com/us/products/computergear/nanoKONTROL2/) physical controller (and [Korg Kontrol Editor](https://www.korg.com/us/support/download/software/0/159/1354/) to load scene template file).
 
