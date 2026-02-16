@@ -29,7 +29,6 @@ To-do:
 - Enable external LED mode on nanoKONTROL2 
 - Integrate with other controllers, like Akai MPK Mini MK3
 
-Some issues:
-- MIDIMonster forces all osc patterns to have at least one argument, so messages like vimix/current/flag to jump to next flag are not working (they overlaps with `vimix/current/flag {flag_index}`)
-- MIDIMonster only allows values of the type i, f, h, d. You can't send a string as an argument (i.e. `/current/{source_name}`)
-- MIDIMonster considers '#' character as illegal, so messages like `/batch/#0` are not allowed.  
+[Some issues](https://github.com/brunoherbelin/vimix/issues/198):
+- MIDIMonster only allows values of the type i, f, h, d. You can't send a string as an argument (i.e. `/current/{source_name}` or `/vimix/current/filter ssff blur gaussian 1.0 1000`)
+- MIDIMonster considers '#' character as illegal, so messages like `/batch/#0` are not allowed. You have to use [Vimix translator](https://github.com/brunoherbelin/vimix/wiki/Open-Sound-Control-API#automatic-translation) to solve this.  
